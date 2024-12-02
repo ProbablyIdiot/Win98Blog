@@ -1,0 +1,63 @@
+---
+---
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("/assets/images/win98clouds.jpeg");
+	background-size: 100% auto;
+}
+
+a {
+	color: blue !important;
+}
+
+@media all and (max-width: 700px) {
+	.mainFlex {
+		flex-direction: column;
+	}
+}
+
+.mainFlex {
+	display: flex;
+	gap: 2%;
+	margin: 2%;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+.mainContent {
+	width: 70%;
+	font-size: 11pt !important;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+.mainSidebar {
+	width: 26%;
+	font-weight: bold;
+	align-self: flex-start;
+}
+
+h3 {
+	margin: 0px !important;
+}
+
+.windowIco {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.windowTitle {
+	vertical-align: middle;
+}
+
+.windowTxt {
+	margin: 2mm;
+}
+
+.titleBarContr {
+	font-size: small;
+}
