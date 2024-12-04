@@ -1,6 +1,7 @@
 gems:
   - jekyll-paginate-v2
   - jekyll-sitemap
+  - jekyll-feed
 
 pagination:
   enabled: true
@@ -12,5 +13,10 @@ pagination:
   sort_reverse: true
   #paginate_path: "/posts/:num"
   indexpage: "posts"
+
+feed:
+  title: ProbablySomething
+  url: https://probablysomething.co.uk
+  feed.icon: /favicon.png
 
 permalink: "/:year/:month/:title.html"
