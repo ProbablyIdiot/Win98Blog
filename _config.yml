@@ -19,4 +19,4 @@ feed:
   url: https://probablysomething.co.uk
   feed.icon: /favicon.png
 
-permalink: "/:year/:month/:title.html"
+permalink: "/posts/:title.html"
