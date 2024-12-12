@@ -13,7 +13,7 @@ This is one of the most overly complex and undocumented jekyll problems I've com
 
 You might think "Why would I want an RSS feed? I want a newsletter!". However, this is the simplest way of doing it. At the moment there are no plugins or tutorials for directly sending emails from your jekyll site (or none that I could find), therefore, the easiest way to make a newsletter is to copy your RSS feed.
 
-Just follow the instructions on the [jekyll-feed Github](https://github.com/jekyll/jekyll-feed) to install the plugin, and check that it works by going to `yoururl.com/feed.xml`. If it worked, you should see something like this, with the text containing all blog posts you have previously made.![](/_posts/images/feedXml.png)
+Just follow the instructions on the [jekyll-feed Github](https://github.com/jekyll/jekyll-feed) to install the plugin, and check that it works by going to `yoururl.com/feed.xml`. If it worked, you should see something like this, with the text containing all blog posts you have previously made.![](/assets/postImages/feedXml.png)
 
 
 
@@ -27,7 +27,7 @@ This is the step that has taken forever to figure out. The most popular option f
 
 Head to their website, and click the EMBED ON YOUR BLOG button. Input the link to your RSS feed and then copy the link.
 
-![](/_posts/images/rssToEmail.png)
+![](/assets/postImages/rssToEmail.png)
 
 Then use this code (replacing `yourURL.com` with the link you copied) to create a newsletter button on your blog:
 
