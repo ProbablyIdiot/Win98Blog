@@ -3,12 +3,12 @@ layout: default
 ---
 
 <h2>{{ page.title }}</h2>
-<fieldset>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 <form action="https://rssto.email" method="GET" target="_blank">
     <input type="hidden" name="url" value="https://probablysomething.co.uk/feed.xml">
     <button type="submit">Sign up to the newsletter!</button>
 </form>
+<fieldset>
+	<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 </fieldset>
 
 {{ content }}
