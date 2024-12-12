@@ -5,6 +5,9 @@ layout: default
 <h2>{{ page.title }}</h2>
 <fieldset>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<form action="https://rssto.email?url=https://probablysomething.co.uk" target="_blank">
+	<button type="submit">Sign up to the newsletter!</button>
+</form>
 </fieldset>
 
 {{ content }}
